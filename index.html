@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo_List</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../scss/style.css">
+</head>
+
+<body>
+    <div class="nav_bar">
+        <ul>
+            <li>My Tasks<div class="border"></div>
+            </li>
+            <li>In Progress<div class="border"></div>
+            </li>
+            <li>Completed<div class="border"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="add_container">
+        <div class="task_edit">
+            <input type="checkbox" name="" id="" class="check_box">
+            <input type="text" placeholder="Type Something Here..." class="input_text">
+            <i class="far fa-star"></i>
+            <i class="fas fa-pencil-alt"></i>
+            </input>
+        </div>
+        <div class="task_edit_more">
+            <div class="deadline">
+                <i class="far fa-calendar-alt"></i>Deadline
+                <div class="date">
+                    <input type="date" value="2021-09-06">
+                    <input type="time" value="00:00">
+                </div>
+            </div>
+            <div class="file">
+                <i class="far fa-file"></i>File<br>
+                <i class="fas fa-plus-square"></i>
+            </div>
+            <div class="comment">
+                <i class="far fa-comment-dots"></i>Comment<br>
+                <div class="input_bg"><input type="text" placeholder="Type your memo here..."></div>
+            </div>
+        </div>
+        <div class="confirm">
+            <div class="cancel"><i class="fas fa-times"></i>Cancel</div>
+            <div class="add"><i class="fas fa-plus"></i>Add Task</div>
+        </div>
+    </div>
+    <div class="task_container">
+        <ul>
+            <li>
+                <div class="task_edit">
+                    <input type="checkbox" name="" id="" class="check_box">
+                    <input type="text" placeholder="遛貓..." class="input_text">
+                    <i class="far fa-star"></i>
+                    <i class="fas fa-pencil-alt"></i>
+                    </input>
+                </div>
+            </li>
+            <li>
+                <div class="task_edit">
+                    <input type="checkbox" name="" id="" class="check_box">
+                    <input type="text" placeholder="遛狗..." class="input_text">
+                    <i class="far fa-star"></i>
+                    <i class="fas fa-pencil-alt"></i>
+                    </input>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
